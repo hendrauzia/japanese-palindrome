@@ -21,4 +21,16 @@ How to Use
 =========
 
     cd japanese-palindrome
-    bin/japanese-palindrome "was it a car or a cat I saw"
+    bin/japanese-palindrome "karui kibin na koneko nanbiki iruka"
+
+References
+=========
+
+Japanese Hiragana syllables taken from:
+
+* http://en.wikipedia.org/wiki/Hiragana#Table_of_hiragana
+* http://www.japanese-lesson.com/resources/pdf/hiragana_chart.pdf
+
+List of japanese palindrome can be seen at:
+
+* http://www.sljfaq.org/afaq/palindromes.html

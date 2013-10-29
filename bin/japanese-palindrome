@@ -6,7 +6,6 @@ require File.expand_path('../../lib/string.rb', __FILE__)
 Bundler.require :default
 
 text = ARGV[0]
-reversed = text.reverse(:JP)
 if text.palindrome?(:JP)
   result = "is a palindrome!"
 else
@@ -14,4 +13,3 @@ else
 end
 
 puts "#{text} #{result}"
-puts "Reversed: #{reversed}"
