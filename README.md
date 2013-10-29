@@ -14,14 +14,27 @@ This project is built on top of and requires:
 Installation
 =========
 
-    git clone git@github.com:hendrauzia/japanese-palindrome.git
-    bundle install
+    $ git clone git@github.com:hendrauzia/japanese-palindrome.git
+    $ bundle install
 
 How to Use
 =========
 
-    cd japanese-palindrome
-    bin/japanese-palindrome "karui kibin na koneko nanbiki iruka"
+The following examples will return `<text> is a palindrome!`, otherwise it will return `<text> is not a palindrome!`.
+
+    $ cd japanese-palindrome
+
+    $ bin/japanese-palindrome "Shikishi"
+    Sikishi is a palindrome!
+
+    $ bin/japanese-palindrome "Dansu ga sunda"
+    Dansu ga sunda is a palindrome!
+
+    $ bin/japanese-palindrome "Karui kibin na koneko nanbiki iruka"
+    Karui kibin na koneko nanbiki iruka us a palindrome!
+
+    $ bin/japanese-palindrome "Watashi no ongaku"
+    Watashi no ongaku is not a palindrome!
 
 References
 =========
@@ -34,3 +47,14 @@ Japanese Hiragana syllables taken from:
 List of japanese palindrome can be seen at:
 
 * http://www.sljfaq.org/afaq/palindromes.html
+
+Limitations
+=========
+
+It still has some limitations to detect palindrome on sentences like these:
+
+    Ika ni mo nigai
+    Nagasaki ya no yaki sakana
+    Hei no aru ano ie
+
+The above sentences, even if it's a palindrome, it will return `<text> is not a palindrome!`.
