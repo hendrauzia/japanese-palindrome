@@ -9,7 +9,7 @@ text = ARGV[0]
 if text.palindrome?(:JP)
   result = "is a palindrome!"
 else
-	result = "is not a palindrome!"
+  result = "is not a palindrome!"
 end
 
 puts "#{text} #{result}"

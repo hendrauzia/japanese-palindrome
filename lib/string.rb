@@ -36,10 +36,10 @@ bya|byu|byo|\
 pya|pyu|pyo\
 /
 
-	def palindrome?(lang=:EN)
+  def palindrome?(lang=:EN)
     text = letters_only
     return true if text == text.reverse(lang)
-	end
+  end
 
   def reverse(lang=:EN)
     return each_char.to_a.reverse.join if (lang == :EN || lang == nil)
