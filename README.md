@@ -25,13 +25,13 @@ The following examples will return `<text> is a palindrome!`, otherwise it will 
     $ cd japanese-palindrome
 
     $ bin/japanese-palindrome "Shikishi"
-    Sikishi is a palindrome!
+    Shikishi is a palindrome!
 
     $ bin/japanese-palindrome "Dansu ga sunda"
     Dansu ga sunda is a palindrome!
 
     $ bin/japanese-palindrome "Karui kibin na koneko nanbiki iruka"
-    Karui kibin na koneko nanbiki iruka us a palindrome!
+    Karui kibin na koneko nanbiki iruka is a palindrome!
 
     $ bin/japanese-palindrome "Watashi no ongaku"
     Watashi no ongaku is not a palindrome!
