@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+require 'rubygems'
+require 'bundler/setup'
+require File.expand_path('../../lib/string.rb', __FILE__)
+
+Bundler.require :default
+
+text = ARGV[0]
+reversed = text.reverse(:JP)
+if text.palindrome?(:JP)
+  result = "is a palindrome!"
+else
+	result = "is not a palindrome!"
+end
+
+puts "#{text} #{result}"
+puts "Reversed: #{reversed}"
