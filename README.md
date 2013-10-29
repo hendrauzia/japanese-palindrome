@@ -20,21 +20,21 @@ Installation
 How to Use
 =========
 
-The following examples will return `<text> is a palindrome!`, otherwise it will return `<text> is not a palindrome!`.
+The following examples will return `"<text>" is a palindrome!`, otherwise it will return `"<text>" is not a palindrome!`.
 
     $ cd japanese-palindrome
 
     $ bin/japanese-palindrome "Shikishi"
-    Shikishi is a palindrome!
+    "Shikishi" is a palindrome!
 
     $ bin/japanese-palindrome "Dansu ga sunda"
-    Dansu ga sunda is a palindrome!
+    "Dansu ga sunda" is a palindrome!
 
     $ bin/japanese-palindrome "Karui kibin na koneko nanbiki iruka"
-    Karui kibin na koneko nanbiki iruka is a palindrome!
+    "Karui kibin na koneko nanbiki iruka" is a palindrome!
 
     $ bin/japanese-palindrome "Watashi no ongaku"
-    Watashi no ongaku is not a palindrome!
+    "Watashi no ongaku" is not a palindrome!
 
 References
 =========
@@ -57,4 +57,4 @@ It still has some limitations to detect palindrome on sentences like these:
     Nagasaki ya no yaki sakana
     Hei no aru ano ie
 
-The above sentences, even if it's a palindrome, it will return `<text> is not a palindrome!`.
+The above sentences, even if it's a palindrome, it will return `"<text>" is not a palindrome!`.
